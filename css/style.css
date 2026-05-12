@@ -204,7 +204,7 @@ section.smaller {
 body {
 	font-family: Montserrat; /*Montserrat; */
 	font-size: medium;
-	text-align: justify;
+	text-align: left;
 }
 li {
     display: block;

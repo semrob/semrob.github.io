@@ -1,4 +1,127 @@
- /*For Mobile */
+
+
+.collapsible-section {
+    margin-top: 0;
+}
+
+.collapsible-header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: inherit;
+    font-family: inherit;
+    text-align: left;
+    cursor: pointer;
+}
+
+.collapsible-header:hover,
+.collapsible-header:focus {
+    color: inherit;
+    text-decoration: none;
+}
+
+.collapsible-header:focus {
+    outline: 2px solid #80bdff;
+    outline-offset: 2px;
+}
+
+.collapsible-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.collapsible-control {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2;
+    white-space: nowrap;
+}
+
+.collapsible-state-collapse {
+    display: none;
+}
+
+.collapsible-section.is-expanded .collapsible-state-expand {
+    display: none;
+}
+
+.collapsible-section.is-expanded .collapsible-state-collapse {
+    display: inline;
+}
+
+.collapsible-header:hover .collapsible-state-expand,
+.collapsible-header:hover .collapsible-state-collapse,
+.collapsible-header:focus .collapsible-state-expand,
+.collapsible-header:focus .collapsible-state-collapse {
+    text-decoration: underline;
+}
+
+.collapsible-chevron {
+    margin-right: 10px;
+    font-size: 0.75rem;
+    line-height: 1;
+    transition: transform 0.3s ease;
+}
+
+.collapsible-section.is-expanded .collapsible-chevron {
+    transform: rotate(180deg);
+}
+
+.collapsible-content {
+    margin-top: 10px;
+}
+
+.collapsible-preview {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+.collapsible-section.is-expanded .collapsible-preview {
+    display: block;
+    overflow: visible;
+}
+
+.collapsible-expand-prompt {
+    display: block;
+    width: 100%;
+    margin: 0 0 1rem;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    text-align: right;
+    cursor: pointer;
+}
+
+.collapsible-expand-prompt:hover,
+.collapsible-expand-prompt:focus {
+    text-decoration: underline;
+}
+
+.collapsible-expand-prompt:focus {
+    outline: 2px solid #80bdff;
+    outline-offset: 2px;
+}
+
+.collapsible-section.is-expanded .collapsible-expand-prompt {
+    display: none;
+}
+
+/*For Mobile */
  .programimg {
  	border-width: 2px;
  	border-color: #009688;

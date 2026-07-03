@@ -171,7 +171,7 @@
             return;
         }
 
-        requestText("static/26_ICRA/papers.csv", function(data) {
+        requestText("docs/2026/papers.csv", function(data) {
             var papers;
 
             try {

@@ -15,6 +15,32 @@
     color: #009688;
 }
 
+a.paper-forum-link {
+    display: inline-block;
+    margin-right: 8px;
+    padding: 0 3px;
+    border: 1px solid currentColor;
+    border-radius: 2px;
+    color: #d9534f;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.abstract-toggle {
+    -webkit-appearance: none;
+    appearance: none;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: #007bff;
+    font: inherit;
+    line-height: inherit;
+    text-align: left;
+    cursor: pointer;
+}
+
 .authorname {
     color: rgb(120,120,120);
     font-weight: normal
@@ -351,19 +377,6 @@ li {
     border-style: solid;
     max-width: 100%;
     max-height: 100&;
-}
-
-.paper-forum-link {
-    display: inline-block;
-    margin-right: 8px;
-    padding: 0 3px;
-    border: 1px solid currentColor;
-    border-radius: 2px;
-    color: #d9534f;
-    font-size: 0.75rem;
-    font-weight: 600;
-    line-height: 1.2;
-    text-decoration: none;
 }
 
 .pc-column {

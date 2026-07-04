@@ -359,6 +359,10 @@ li {
 /*}*/
 }
 
+.paper-authors {
+    font-style: italic;
+}
+
 .paperlink img {
     background-color: transparent;
     border-color: #ccc;
@@ -377,6 +381,12 @@ li {
     border-style: solid;
     max-width: 100%;
     max-height: 100&;
+}
+
+.paper-title {
+    display: inline;
+    color: #000;
+    font-weight: bold;
 }
 
 .pc-column {

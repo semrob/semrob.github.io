@@ -353,6 +353,19 @@ li {
     max-height: 100&;
 }
 
+.paper-forum-link {
+    display: inline-block;
+    margin-right: 8px;
+    padding: 0 3px;
+    border: 1px solid currentColor;
+    border-radius: 2px;
+    color: #d9534f;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
 .pc-column {
     width: 270px;
     display: inline-block;

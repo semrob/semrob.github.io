@@ -102,7 +102,6 @@
             '<div class="paper-entry">',
             '    <h5 class="paper-title">' + title + '</h5>',
             '    ' + spotlightBadge + bestPaperBadge,
-            '    <br>',
             '    <span class="paper-authors">' + authors + '</span>',
             '    <br>',
             '    ' + forumLink,
@@ -112,7 +111,8 @@
             '    <div id="' + abstractId + '" class="collapse paper-abstract-body">',
             '        ' + abstract,
             '    </div>',
-            '</div>'
+            '</div>',
+            '<br>',
         ].join("");
     }
 

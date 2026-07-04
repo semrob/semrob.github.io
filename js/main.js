@@ -100,7 +100,7 @@
 
         return [
             '<div class="paper-entry">',
-            '    <h5 class="paper-title">' + title + '</h5>',
+            '    <h5 class="paper-title">' + '(' + paperNumber + ') ' + title + '</h5>',
             '    ' + spotlightBadge + bestPaperBadge,
             '    <br>',
             '    <span class="paper-authors">' + authors + '</span>',

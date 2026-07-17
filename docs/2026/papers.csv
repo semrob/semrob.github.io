@@ -80,7 +80,7 @@ paper_number,forum_id,spotlight,best_paper,title,abstract,authors,Decision
  inference by 83% via token pruning and improves event-based
  visual odometry accuracy, reducing Absolute Trajectory Error
  (ATE) by 13%.","Roberto Pellerito, Nico Messikommer, Giovanni Cioffi, Marco Cannici, Davide Scaramuzza",Accept
-17,UU7DEIFBEb,FALSE,FALSE,"Recover, Discover, Plan: Learning Skills and Concepts from Robot Failures","Intelligent robots should not only recover from failures, but also acquire the abstract knowledge needed to avoid them in the future.
+17,UU7DEIFBEb,TRUE,FALSE,"Recover, Discover, Plan: Learning Skills and Concepts from Robot Failures","Intelligent robots should not only recover from failures, but also acquire the abstract knowledge needed to avoid them in the future.
  While reinforcement learning (RL) can learn reactive recovery behaviors, training a separate policy for every distinct failure mode is highly inefficient.
  We introduce Recovery-Driven Synthesis of Relational Concepts (ReSYNC), the first approach that progressively discovers and refines state abstractions (relational predicates) from failure-recovery experience to support abstract planning.
  Unlike purely reactive methods, ReSYNC jointly learns skills and concepts through an incremental dual-learning process.
